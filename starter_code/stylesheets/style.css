@@ -94,7 +94,6 @@ header{
     align-items: center;
     justify-content: center;
     text-align: left;
-    background-color: grey;
     flex-direction: column;
     flex-wrap: wrap;
     width: 90vw;
@@ -105,7 +104,7 @@ header img{
     width:85vw;
 }
 header button{
-    background-color: darkblue;
+    background-color: #192592;
     ;
 }
 
@@ -115,11 +114,14 @@ main div{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: orange;
+    background-color: #F4F3F4;
     flex-direction: column;
     width: 90vw;
     font-size: 0.8em;
     text-align: center;
+}
+.try-it{
+    background-color: white;
 }
 main button{
     background-color: white;
@@ -135,14 +137,72 @@ footer div{
     margin-left: 2.5vw;
     display:flex;
     justify-content: flex-start;
-    background-color: brown;
-    flex-direction: column;
+    background-color: #F4F3F4;
+    flex-direction: row;
     width: 90vw;
     font-size: 0.8em;
     text-align: left;
+    flex-wrap: wrap;
 }
 
 footer img{
     height: 30vw;
     width: 30vw;
+    padding-right:40vw;
+}
+footer ul{
+    width:30vw;
+}
+
+.bottom{ 
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90vw;
+    font-size: 0.8em;
+    text-align: center;
+    
+}
+.bottom ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+.lan-footer{
+    margin-left:0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid red;
+    background-color:#F4F3F4;
+    display:flex;
+    flex-direction: row;
+    width: 90vw;
+    font-size: 0.8em;
+    text-align: center;
+}
+.lan-footer img{
+    border:3px solid green;
+    height: 8vw;
+    width: 8vw;
+    padding-right:0;
+    padding-left:35vw;
+
+}
+span{
+    align-self: center;
+    padding-right:30vw;
+    border: 4px solid purple;
+}
+i{
+    font-size:5vw !important;
+    align-self: flex-end;
+    justify-content: center;
+    background-color: green;    
 }
